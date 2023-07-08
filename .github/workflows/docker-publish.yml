@@ -35,5 +35,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: coorise/swyger/nodejs-base:0.1.0
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: coorise/swyger/nodejs-base:0.1.0 , coorise/swyger/nodejs-base:latest
+          labels: swyger/nodejs-base
